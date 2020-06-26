@@ -253,6 +253,7 @@ hs_err_pid*
 *.iml
 out
 gen
+HELP.md
 ### MicrosoftOffice template
 *.tmp
 
