@@ -1,4 +1,4 @@
-package com.example.demo.thread;
+package com.vic.demo.thread;
 
 /**
  * 等待和唤醒列子

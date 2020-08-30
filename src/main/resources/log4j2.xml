@@ -89,7 +89,7 @@
         </root>
 
         <!-- 打印sql日志信息 -->
-        <logger name="com.example.demo" level="debug" additivity="false">
+        <logger name="com.vic.demo" level="debug" additivity="false">
             <appender-ref ref="Console"/>
             <appender-ref ref="RollingFileSql"/>
         </logger>

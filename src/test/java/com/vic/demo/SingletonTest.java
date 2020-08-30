@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.vic.demo;
 
 import java.lang.reflect.Field;
 import java.util.HashMap;

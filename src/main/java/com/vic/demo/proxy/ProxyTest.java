@@ -1,4 +1,4 @@
-package com.example.demo.proxy;
+package com.vic.demo.proxy;
 
 /**
  * 源程序名称：ProxyTest <br>
