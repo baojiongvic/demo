@@ -1,4 +1,4 @@
-package com.vic.demo.jvm;
+package com.vic.demo.jvm.classloader;
 
 import java.util.UUID;
 

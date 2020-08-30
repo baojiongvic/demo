@@ -1,4 +1,4 @@
-package com.vic.demo.jvm;
+package com.vic.demo.jvm.classloader;
 
 /**
  * 源程序名称：MyTest1 <br>
