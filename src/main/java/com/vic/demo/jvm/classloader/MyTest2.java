@@ -17,7 +17,15 @@ package com.vic.demo.jvm.classloader;
  */
 public class MyTest2 {
     public static void main(String[] args) {
-        System.out.println(MyParent2.i);
+        System.out.println(MyChild2.str2);
+    }
+}
+
+class MyChild2 extends MyParent2 {
+    public static final String str2 = "welcome";
+
+    static {
+        System.out.println("MyChild2's static block");
     }
 }
 

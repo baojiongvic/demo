@@ -12,7 +12,7 @@ package com.vic.demo.jvm.classloader;
 public class MyTest1 {
 
     public static void main(String[] args) {
-        System.out.println(MyChild1.str2);
+        System.out.println(MyChild1.str1);
     }
 
 
