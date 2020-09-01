@@ -8,7 +8,36 @@ package com.vic.demo.jvm.classloader;
  *
  * @Author baojiong20176 <br>
  * <br>
- * Copyright © 2020 Hundsun Technologies Inc. All Rights Reserved
+ *
+ * 准备阶段的重要意义
+ *
  */
 public class MyTest6 {
+
+    public static void main(String[] args) {
+        Singleton singleton = Singleton.getInstance();
+
+        System.out.println("counter1: " + Singleton.counter1);
+        System.out.println("counter2: " + Singleton.counter2);
+    }
+}
+
+class Singleton {
+
+    public static int counter1 = 1;
+
+    private static Singleton singleton = new Singleton();
+
+    private Singleton() {
+        counter1++;
+        counter2++;
+        System.out.println(counter1);
+        System.out.println(counter2);
+    }
+
+    public static int counter2 = 0;
+
+    public static Singleton getInstance() {
+        return singleton;
+    }
 }

@@ -8,7 +8,17 @@ package com.vic.demo.jvm.classloader;
  *
  * @Author baojiong20176 <br>
  * <br>
- * Copyright © 2020 Hundsun Technologies Inc. All Rights Reserved
+ *
+ * 当一个接口在初始化时，并不要求其父接口都完成初始化，
+ * 只有在真正使用到父接口的时候（如引用接口中所定义的常量时）才会初始化
  */
 public class MyTest5 {
+}
+
+interface MyParent5 {
+    int i = 1;
+}
+
+interface MyChild5 extends MyParent5 {
+    int i2 = 2;
 }
