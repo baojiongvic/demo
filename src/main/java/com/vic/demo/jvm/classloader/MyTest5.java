@@ -13,12 +13,15 @@ package com.vic.demo.jvm.classloader;
  * 只有在真正使用到父接口的时候（如引用接口中所定义的常量时）才会初始化
  */
 public class MyTest5 {
+    public static void main(String[] args) {
+        System.out.println(MyChild5.i);
+    }
 }
 
 interface MyParent5 {
     int i = 1;
 }
 
-interface MyChild5 extends MyParent5 {
+class MyChild5 implements MyParent5 {
     int i2 = 2;
 }

@@ -9,8 +9,6 @@ package com.vic.demo.jvm.classloader;
  * @Author baojiong20176 <br>
  * <br>
  *
- * 准备阶段的重要意义
- *
  */
 public class MyTest6 {
 
@@ -32,7 +30,7 @@ class Singleton {
         counter1++;
         counter2++;
         System.out.println(counter1);
-        System.out.println(counter2);
+        System.out.println(counter2); //准备阶段的重要意义
     }
 
     public static int counter2 = 0;
