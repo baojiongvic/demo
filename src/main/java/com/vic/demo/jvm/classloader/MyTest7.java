@@ -8,7 +8,6 @@ package com.vic.demo.jvm.classloader;
  *
  * @Author baojiong20176 <br>
  * <br>
- * Copyright © 2020 Hundsun Technologies Inc. All Rights Reserved
  */
 public class MyTest7 {
 }

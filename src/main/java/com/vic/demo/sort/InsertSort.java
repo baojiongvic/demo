@@ -2,9 +2,6 @@ package com.vic.demo.sort;
 
 /**
  * @author baojiong20176<br>
- * @copyright 恒生电子股份有限公司 版权所有<br>
- * @date 2019/6/12 19:06
- * @description
  */
 public class InsertSort {
 
