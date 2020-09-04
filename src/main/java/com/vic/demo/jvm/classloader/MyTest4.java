@@ -27,6 +27,6 @@ public class MyTest4 {
 
 class MyParent4 {
     static {
-        System.out.println("MyParent4's static block");
+        System.out.println("MyParent4 static block");
     }
 }

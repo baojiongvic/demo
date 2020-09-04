@@ -6,6 +6,8 @@ package com.vic.demo.jvm.classloader;
  * 系统名称：demo <br>
  * 开发时间：2020/8/30 1:15 下午 <br>
  *
+ * 测试类
+ *
  * @Author baojiong20176 <br>
  * <br>
  */
@@ -22,7 +24,7 @@ class MyParent1 {
     public static String str1 = "Hello World!";
 
     static {
-        System.out.println("MyParent1's static block");
+        System.out.println("MyParent1 static block");
     }
 
 }
@@ -31,6 +33,6 @@ class MyChild1 extends MyParent1 {
     public static String str2 = "Welcome";
 
     static {
-        System.out.println("MyChild1's static block");
+        System.out.println("MyChild1 static block");
     }
 }

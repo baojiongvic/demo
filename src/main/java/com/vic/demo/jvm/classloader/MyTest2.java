@@ -25,7 +25,7 @@ class MyChild2 extends MyParent2 {
     public static final String str2 = "welcome";
 
     static {
-        System.out.println("MyChild2's static block");
+        System.out.println("MyChild2 static block");
     }
 }
 
@@ -38,6 +38,6 @@ class MyParent2 {
     public static final int i = 128;
 
     static {
-        System.out.println("MyParent2's static block");
+        System.out.println("MyParent2 static block");
     }
 }

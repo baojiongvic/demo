@@ -24,6 +24,6 @@ class MyParent3 {
     public static final String str = UUID.randomUUID().toString();
 
     static {
-        System.out.println("MyParent3's static block");
+        System.out.println("MyParent3 static block");
     }
 }
