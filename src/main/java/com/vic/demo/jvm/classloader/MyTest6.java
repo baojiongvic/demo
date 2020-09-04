@@ -7,6 +7,9 @@ package com.vic.demo.jvm.classloader;
  * 开发时间：2020/9/1 12:03 下午 <br>
  *
  * @Author baojiong20176 <br>
+ *
+ * 初始化会按照定义顺序进行
+ * 此例子counter2输出结果为0
  * <br>
  *
  */
