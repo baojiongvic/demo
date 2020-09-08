@@ -10,4 +10,8 @@ package com.vic.demo.jvm.classloader;
  * <br>
  */
 public class MyTest13 {
+
+    public static void main(String[] args) {
+        ClassLoader loader = ClassLoader.getSystemClassLoader();
+    }
 }
