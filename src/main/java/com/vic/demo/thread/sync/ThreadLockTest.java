@@ -1,10 +1,10 @@
-package com.vic.demo.thread;
+package com.vic.demo.thread.sync;
 
 /**
  * 等待和唤醒列子
  * wait() notify() demo
  */
-public class ThreadTest {
+public class ThreadLockTest {
 
     private static Object lock = new Object();
 

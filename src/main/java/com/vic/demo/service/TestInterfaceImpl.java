@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class TestInterfaceImpl implements TestInterface {
     @Override
-    public void printf() {
+    public void print() {
         System.out.println("test");
     }
 }

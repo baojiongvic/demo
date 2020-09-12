@@ -20,7 +20,7 @@ public class DemoController {
 
     @RequestMapping(value = "/print", method = RequestMethod.GET)
     public String print() {
-        testInterface.printf();
+        testInterface.print();
         return "success";
     }
 }
