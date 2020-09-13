@@ -1,5 +1,6 @@
-package com.vic.practice.service;
+package com.vic.practice.service.impl;
 
+import com.vic.practice.service.TestInterface;
 import org.springframework.stereotype.Service;
 
 /**
