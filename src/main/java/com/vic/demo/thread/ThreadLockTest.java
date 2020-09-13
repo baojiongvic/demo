@@ -1,4 +1,4 @@
-package com.vic.demo.thread.sync;
+package com.vic.demo.thread;
 
 /**
  * 等待和唤醒列子
