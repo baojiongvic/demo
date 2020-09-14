@@ -39,6 +39,7 @@ class Windows4 extends Thread {
         }
     }
 
+    // 同步监视器：Windows4.class
     private static synchronized void sell() {
 //    private synchronized void sell() { // 同步监视器win1、win2、win3
         if (count > 0) {
