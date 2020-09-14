@@ -8,7 +8,8 @@ package com.vic.practice.instance;
  *
  * @author baojiong20176 <br>
  * <br>
- * Copyright © 2020 Hundsun Technologies Inc. All Rights Reserved
+ *
+ * 单例模式例子
  */
 public class BankTesl {
 }
