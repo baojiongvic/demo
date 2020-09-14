@@ -33,12 +33,10 @@ class Windows2 extends Thread {
 
     private static int count = 100;
 
-    private static Object lock = new Object();
-
     @Override
     public void run() {
         while (true) {
-            synchronized (lock) {
+            synchronized (Windows2.class) {
                 if (count > 0) {
 
                     // 提高出现错票的概率

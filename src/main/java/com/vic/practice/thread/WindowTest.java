@@ -34,12 +34,12 @@ class Windows implements Runnable {
 
     private int count = 1000;
 
-    private Object lock = new Object();
+//    private Object lock = new Object();
 
     @Override
     public void run() {
         while (true) {
-            synchronized (lock) {
+            synchronized (this) {
                 if (count > 0) {
                     System.out.println(Thread.currentThread().getName() + "卖票：票号：" + count);
 
