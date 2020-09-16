@@ -1,4 +1,5 @@
-# demo
-仅仅为个人练习demo
+# practice
 
-主要包括jvm
+个人平时学习练手小例子
+
+目前包含jvm、thread
