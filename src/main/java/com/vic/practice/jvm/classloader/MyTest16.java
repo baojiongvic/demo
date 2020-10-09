@@ -37,8 +37,8 @@ public class MyTest16 extends ClassLoader {
 
     @Override
     protected Class<?> findClass(String name) throws ClassNotFoundException {
-        System.out.println("use this findClass method : " + name);
-        System.out.println("class loader name :" + this.classLoaderName);
+        System.out.println("findClass invoked: " + name);
+        System.out.println("class loader name: " + this.classLoaderName);
         byte[] data = loadClassData(name);
         return this.defineClass(name, data, 0, data.length);
     }
