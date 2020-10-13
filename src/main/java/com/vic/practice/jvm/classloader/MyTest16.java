@@ -35,6 +35,10 @@ public class MyTest16 extends ClassLoader {
         this.classLoaderName = classLoaderName;
     }
 
+    public MyTest16(ClassLoader parent) {
+        super(parent);
+    }
+
     @Override
     protected Class<?> findClass(String name) throws ClassNotFoundException {
         System.out.println("findClass invoked: " + name);
