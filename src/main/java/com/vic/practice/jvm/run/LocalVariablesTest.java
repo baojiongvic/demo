@@ -3,9 +3,6 @@ package com.vic.practice.jvm.run;
 import java.util.Date;
 
 /**
- * 软件著作权：恒生电子股份有限公司 版权所有 <br>
- * 系统名称：practice <br>
- *
  * @author baojiong20176
  * @create 2021/3/4 6:46 上午
  */

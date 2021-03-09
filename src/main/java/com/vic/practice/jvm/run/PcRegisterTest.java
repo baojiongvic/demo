@@ -15,8 +15,5 @@ public class PcRegisterTest {
         int k = i + j;
 
         String s = "abc";
-
-        System.out.println(s);
-        System.out.println(k);
     }
 }
